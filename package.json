@@ -1,0 +1,25 @@
+{
+  "name": "synology-diskstation",
+  "version": "1.0.0",
+  "description": "Turn on and off a Synology DiskStation.",
+  "main": "index.js",
+  "scripts": {},
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonbs/synology-diskstation.git"
+  },
+  "keywords": [
+    "synology",
+    "diskstation",
+    "home",
+    "automation",
+    "disk",
+    "nas",
+    "station"
+  ],
+  "author": "Simon B. Støvring",
+  "license": "ISC",
+  "dependencies": {
+    "wake_on_lan": "0.0.4"
+  }
+}
