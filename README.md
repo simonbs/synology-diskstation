@@ -4,7 +4,7 @@ Node module for turning on and off a Synology DiskStation. Tested with a DS214pl
 
 ## Installation
 
-Install using `npm install --save git+ssh://git@github.com/simonbs/.git`
+Install using `npm install --save git+ssh://git@github.com/simonbs/synology-diskstation.git`
 
 ## Usage
 
