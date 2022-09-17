@@ -57,7 +57,7 @@ Synology.prototype.request = function(options, callback) {
 
 Synology.prototype.login = function(account, password, callback) {
   var options = {
-    path: '/webapi/auth.cgi?api=SYNO.API.Auth&version=2&method=login&account='+account+'&passwd='+password+'&format=cookie'
+    path: '/webapi/auth.cgi?api=SYNO.API.Auth&version=7&method=login&account='+account+'&passwd='+password+'&format=cookie'
   }
   this.request(options, function(err, body) {
     if (err) {
